@@ -1,0 +1,56 @@
+body{
+  background-color: black;
+  font-family: 'Righteous', cursive;
+}
+a:hover{
+  color: white;
+}
+a:link{
+  color: black;
+  font-weight: bold;
+}
+a:visited{
+  color: black;
+}
+#formLogin{
+  background-color: grey;
+  border : 2px solid white;
+}
+#france{
+  font-size: 15px;
+}
+#password{
+  height: 30px;
+  margin-left: 14px
+}
+#title{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+#test{
+  height: 150px;
+}
+#signEmail{
+margin-left: 127px;
+}
+#signPassword{
+  margin-left: 70px;
+}
+#formSignIn{
+  background-color: white;
+  margin-top: 50px;
+}
+#signLogin{
+  margin-left: 59px;
+}
+#signSubmit{
+  width: 600px;
+  border: 2px solid grey;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.formPolice{
+  font-size: 15px;
+}

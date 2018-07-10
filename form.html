@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang=fr>
+  <head>
+    <meta charset="utf-8">
+    <title>Inscription</title>
+  </head>
+  <body>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Lunatic Rave 2 France</title>
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css.map" />
+      <link rel="stylesheet" href="assets/css/bootstrap.css.map" />
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+      <script src="assets/js/script.js"></script>
+      <script src="assets/js/jquery-3.2.1.js"></script>
+    </head>
+    <body>
+      <div class="container-fluid">
+        <div class="row">
+      <!-- titre -->
+    <h1 id="title" class="col-md-9">lunatic rave 2 <span id="france">france<span></h1>
+      <!-- formulaire de connection -->
+    <div class="col-md-3" id="test">
+      <form id="formLogin">
+        <legend>Connexion</legend>
+        <label class="formPolice">nom de compte :<input size="10px" type="text" name="log" id="login"></input></label>
+        <label class="formPolice">mot de passe :<input size="10px" type="text" name="log" id="password"></input></label>
+      <div class="formPolice"><a href="#here">Inscription</a></div>
+      <div class="formPolice"><a href="#motDePasseOublier">Mot de passe oublier ?</a></div>
+    </form>
+    </div>
+    </div>
+      <!-- navbar -->
+    <div classe="col-md-12">
+      <!-- accueil -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Accueil</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Leaderboard -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Leaderboard<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+      <!-- Profile -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Profile<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+      <!-- Telechargement -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Download<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+      <!-- Forum -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Forum<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      <form id="formSignIn" class="offset-md-3 col-md-6">
+        <legend>Inscription</legend>
+        <label class="formPolice">nom de compte : <input size="20px" type="text" name="log" id="signLogin"></input></label>
+        <label class="formPolice">mot de passe : <input size="20px" type="text" name="log" id="signPassword"></input></label>
+        <label class="formPolice">confirmer mot de passe : <input size="20px" type="text" name="log" id="signConfirmPassword"></input></label>
+        <label class="formPolice">Email : <input size="20px" type="text" name="log" id="signEmail"></input></label>
+              <button  type="submit" id="signSubmit" onclick="signFunction()">submit</button>
+      </form>
+
+    </div>
+  </body>
+</html>
